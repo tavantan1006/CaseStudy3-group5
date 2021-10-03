@@ -1,7 +1,7 @@
 Create database Project;
 use Project;
 /*================Brand===============*/
-
+ALTER DATABASE Project CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 Create table Brand(
                       id int auto_increment ,
                       name nvarchar(50) unique,
